@@ -1,0 +1,456 @@
+export const customersData = [[
+    {
+      "customerId": "C001",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "+1-800-555-1234",
+      "address": "123 Elm Street, Springfield, IL",
+      "registeredAt": "2022-01-01"
+    },
+    {
+      "customerId": "C002",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "+1-800-555-5678",
+      "address": "456 Oak Avenue, Springfield, IL",
+      "registeredAt": "2022-02-15"
+    },
+    {
+      "customerId": "C003",
+      "name": "George Johnson",
+      "email": "georgej@example.com",
+      "phone": "+1-800-555-7890",
+      "address": "789 Pine Road, Springfield, IL",
+      "registeredAt": "2022-03-10"
+    },
+    {
+      "customerId": "C004",
+      "name": "Emily Davis",
+      "email": "emilydavis@example.com",
+      "phone": "+1-800-555-1112",
+      "address": "101 Maple Street, Springfield, IL",
+      "registeredAt": "2022-04-20"
+    },
+    {
+      "customerId": "C005",
+      "name": "Michael Wilson",
+      "email": "michaelw@example.com",
+      "phone": "+1-800-555-2323",
+      "address": "202 Birch Avenue, Springfield, IL",
+      "registeredAt": "2022-05-05"
+    },
+    {
+      "customerId": "C006",
+      "name": "Sarah Lee",
+      "email": "sarahlee@example.com",
+      "phone": "+1-800-555-3434",
+      "address": "303 Cedar Drive, Springfield, IL",
+      "registeredAt": "2022-06-10"
+    },
+    {
+      "customerId": "C007",
+      "name": "David Brown",
+      "email": "davidbrown@example.com",
+      "phone": "+1-800-555-4545",
+      "address": "404 Redwood Street, Springfield, IL",
+      "registeredAt": "2022-07-25"
+    },
+    {
+      "customerId": "C008",
+      "name": "Olivia Green",
+      "email": "oliviagreen@example.com",
+      "phone": "+1-800-555-5656",
+      "address": "505 Pine Street, Springfield, IL",
+      "registeredAt": "2022-08-15"
+    },
+    {
+      "customerId": "C009",
+      "name": "Daniel Hall",
+      "email": "danielhall@example.com",
+      "phone": "+1-800-555-6767",
+      "address": "606 Oak Drive, Springfield, IL",
+      "registeredAt": "2022-09-30"
+    },
+    {
+      "customerId": "C010",
+      "name": "Sophia Wright",
+      "email": "sophiaw@example.com",
+      "phone": "+1-800-555-7878",
+      "address": "707 Birch Road, Springfield, IL",
+      "registeredAt": "2022-10-10"
+    },
+    {
+      "customerId": "C011",
+      "name": "Mason Martinez",
+      "email": "masonm@example.com",
+      "phone": "+1-800-555-8989",
+      "address": "808 Maple Drive, Springfield, IL",
+      "registeredAt": "2022-11-05"
+    },
+    {
+      "customerId": "C012",
+      "name": "Isabella Taylor",
+      "email": "isabellat@example.com",
+      "phone": "+1-800-555-9090",
+      "address": "909 Redwood Avenue, Springfield, IL",
+      "registeredAt": "2022-12-20"
+    },
+    {
+      "customerId": "C013",
+      "name": "James Anderson",
+      "email": "jamesa@example.com",
+      "phone": "+1-800-555-1010",
+      "address": "1010 Pine Road, Springfield, IL",
+      "registeredAt": "2023-01-15"
+    },
+    {
+      "customerId": "C014",
+      "name": "Charlotte King",
+      "email": "charlottek@example.com",
+      "phone": "+1-800-555-2020",
+      "address": "1111 Cedar Street, Springfield, IL",
+      "registeredAt": "2023-02-10"
+    },
+    {
+      "customerId": "C015",
+      "name": "Liam Scott",
+      "email": "liamscott@example.com",
+      "phone": "+1-800-555-3131",
+      "address": "1212 Oak Avenue, Springfield, IL",
+      "registeredAt": "2023-03-25"
+    },
+    {
+      "customerId": "C016",
+      "name": "Amelia Harris",
+      "email": "ameliaharris@example.com",
+      "phone": "+1-800-555-4242",
+      "address": "1313 Maple Street, Springfield, IL",
+      "registeredAt": "2023-04-30"
+    },
+    {
+      "customerId": "C017",
+      "name": "Benjamin Lewis",
+      "email": "benjaminl@example.com",
+      "phone": "+1-800-555-5353",
+      "address": "1414 Birch Avenue, Springfield, IL",
+      "registeredAt": "2023-05-18"
+    },
+    {
+      "customerId": "C018",
+      "name": "Avery Young",
+      "email": "averyyoung@example.com",
+      "phone": "+1-800-555-6464",
+      "address": "1515 Redwood Road, Springfield, IL",
+      "registeredAt": "2023-06-05"
+    },
+    {
+      "customerId": "C019",
+      "name": "Jack Carter",
+      "email": "jackcarter@example.com",
+      "phone": "+1-800-555-7575",
+      "address": "1616 Pine Street, Springfield, IL",
+      "registeredAt": "2023-07-12"
+    },
+    {
+      "customerId": "C020",
+      "name": "Harper Allen",
+      "email": "harperallen@example.com",
+      "phone": "+1-800-555-8686",
+      "address": "1717 Oak Drive, Springfield, IL",
+      "registeredAt": "2023-08-08"
+    },
+    {
+      "customerId": "C021",
+      "name": "William Moore",
+      "email": "williamm@example.com",
+      "phone": "+1-800-555-9797",
+      "address": "1818 Cedar Street, Springfield, IL",
+      "registeredAt": "2023-09-10"
+    },
+    {
+      "customerId": "C022",
+      "name": "Evelyn Clark",
+      "email": "evelync@example.com",
+      "phone": "+1-800-555-0808",
+      "address": "1919 Maple Avenue, Springfield, IL",
+      "registeredAt": "2023-10-01"
+    },
+    {
+      "customerId": "C023",
+      "name": "Daniela Rodriguez",
+      "email": "danielar@example.com",
+      "phone": "+1-800-555-1919",
+      "address": "2020 Birch Road, Springfield, IL",
+      "registeredAt": "2023-10-20"
+    },
+    {
+      "customerId": "C024",
+      "name": "Elijah Nelson",
+      "email": "elijahnelson@example.com",
+      "phone": "+1-800-555-3030",
+      "address": "2121 Pine Avenue, Springfield, IL",
+      "registeredAt": "2023-11-02"
+    },
+    {
+      "customerId": "C025",
+      "name": "Lucas Carter",
+      "email": "lucas_carter@example.com",
+      "phone": "+1-800-555-4141",
+      "address": "2222 Redwood Street, Springfield, IL",
+      "registeredAt": "2023-11-15"
+    },
+    {
+      "customerId": "C026",
+      "name": "Mia Martinez",
+      "email": "mia.martinez@example.com",
+      "phone": "+1-800-555-5252",
+      "address": "2323 Cedar Road, Springfield, IL",
+      "registeredAt": "2023-12-01"
+    },
+    {
+      "customerId": "C027",
+      "name": "Alexander Harris",
+      "email": "alexanderharris@example.com",
+      "phone": "+1-800-555-6363",
+      "address": "2424 Oak Street, Springfield, IL",
+      "registeredAt": "2023-12-20"
+    },
+    {
+      "customerId": "C028",
+      "name": "Zoe Perez",
+      "email": "zoeperez@example.com",
+      "phone": "+1-800-555-7474",
+      "address": "2525 Maple Road, Springfield, IL",
+      "registeredAt": "2024-01-05"
+    },
+    {
+      "customerId": "C029",
+      "name": "Jackson White",
+      "email": "jacksonw@example.com",
+      "phone": "+1-800-555-8585",
+      "address": "2626 Birch Street, Springfield, IL",
+      "registeredAt": "2024-02-10"
+    },
+    {
+      "customerId": "C030",
+      "name": "Victoria Moore",
+      "email": "victoriam@example.com",
+      "phone": "+1-800-555-9696",
+      "address": "2727 Redwood Avenue, Springfield, IL",
+      "registeredAt": "2024-03-01"
+    }
+  ];
+  export const ordersData = [
+    [
+        {
+          "orderId": "O001",
+          "customerId": "C001",
+          "orderDate": "2022-01-05",
+          "status": "Completed",
+          "totalPrice": "150.00"
+        },
+        {
+          "orderId": "O002",
+          "customerId": "C002",
+          "orderDate": "2022-02-18",
+          "status": "Pending",
+          "totalPrice": "200.00"
+        },
+        {
+          "orderId": "O003",
+          "customerId": "C003",
+          "orderDate": "2022-03-15",
+          "status": "Completed",
+          "totalPrice": "75.00"
+        },
+        {
+          "orderId": "O004",
+          "customerId": "C004",
+          "orderDate": "2022-04-25",
+          "status": "Cancelled",
+          "totalPrice": "100.00"
+        },
+        {
+          "orderId": "O005",
+          "customerId": "C005",
+          "orderDate": "2022-05-10",
+          "status": "Completed",
+          "totalPrice": "120.00"
+        },
+        {
+          "orderId": "O006",
+          "customerId": "C006",
+          "orderDate": "2022-06-15",
+          "status": "Pending",
+          "totalPrice": "220.00"
+        },
+        {
+          "orderId": "O007",
+          "customerId": "C007",
+          "orderDate": "2022-07-30",
+          "status": "Completed",
+          "totalPrice": "90.00"
+        },
+        {
+          "orderId": "O008",
+          "customerId": "C008",
+          "orderDate": "2022-08-18",
+          "status": "Cancelled",
+          "totalPrice": "50.00"
+        },
+        {
+          "orderId": "O009",
+          "customerId": "C009",
+          "orderDate": "2022-09-05",
+          "status": "Completed",
+          "totalPrice": "130.00"
+        },
+        {
+          "orderId": "O010",
+          "customerId": "C010",
+          "orderDate": "2022-10-01",
+          "status": "Pending",
+          "totalPrice": "180.00"
+        },
+        {
+          "orderId": "O011",
+          "customerId": "C011",
+          "orderDate": "2022-11-15",
+          "status": "Completed",
+          "totalPrice": "200.00"
+        },
+        {
+          "orderId": "O012",
+          "customerId": "C012",
+          "orderDate": "2022-12-20",
+          "status": "Cancelled",
+          "totalPrice": "110.00"
+        },
+        {
+          "orderId": "O013",
+          "customerId": "C013",
+          "orderDate": "2023-01-10",
+          "status": "Completed",
+          "totalPrice": "90.00"
+        },
+        {
+          "orderId": "O014",
+          "customerId": "C014",
+          "orderDate": "2023-02-15",
+          "status": "Pending",
+          "totalPrice": "150.00"
+        },
+        {
+          "orderId": "O015",
+          "customerId": "C015",
+          "orderDate": "2023-03-01",
+          "status": "Completed",
+          "totalPrice": "250.00"
+        },
+        {
+          "orderId": "O016",
+          "customerId": "C016",
+          "orderDate": "2023-04-10",
+          "status": "Cancelled",
+          "totalPrice": "80.00"
+        },
+        {
+          "orderId": "O017",
+          "customerId": "C017",
+          "orderDate": "2023-05-15",
+          "status": "Completed",
+          "totalPrice": "135.00"
+        },
+        {
+          "orderId": "O018",
+          "customerId": "C018",
+          "orderDate": "2023-06-05",
+          "status": "Pending",
+          "totalPrice": "170.00"
+        },
+        {
+          "orderId": "O019",
+          "customerId": "C019",
+          "orderDate": "2023-07-10",
+          "status": "Completed",
+          "totalPrice": "120.00"
+        },
+        {
+          "orderId": "O020",
+          "customerId": "C020",
+          "orderDate": "2023-08-01",
+          "status": "Completed",
+          "totalPrice": "220.00"
+        },
+        {
+          "orderId": "O021",
+          "customerId": "C021",
+          "orderDate": "2023-09-15",
+          "status": "Pending",
+          "totalPrice": "200.00"
+        },
+        {
+          "orderId": "O022",
+          "customerId": "C022",
+          "orderDate": "2023-10-05",
+          "status": "Completed",
+          "totalPrice": "150.00"
+        },
+        {
+          "orderId": "O023",
+          "customerId": "C023",
+          "orderDate": "2023-10-30",
+          "status": "Cancelled",
+          "totalPrice": "90.00"
+        },
+        {
+          "orderId": "O024",
+          "customerId": "C024",
+          "orderDate": "2023-11-10",
+          "status": "Completed",
+          "totalPrice": "180.00"
+        },
+        {
+          "orderId": "O025",
+          "customerId": "C025",
+          "orderDate": "2023-11-20",
+          "status": "Pending",
+          "totalPrice": "160.00"
+        },
+        {
+          "orderId": "O026",
+          "customerId": "C026",
+          "orderDate": "2023-12-05",
+          "status": "Completed",
+          "totalPrice": "140.00"
+        },
+        {
+          "orderId": "O027",
+          "customerId": "C027",
+          "orderDate": "2023-12-15",
+          "status": "Cancelled",
+          "totalPrice": "75.00"
+        },
+        {
+          "orderId": "O028",
+          "customerId": "C028",
+          "orderDate": "2024-01-02",
+          "status": "Completed",
+          "totalPrice": "200.00"
+        },
+        {
+          "orderId": "O029",
+          "customerId": "C029",
+          "orderDate": "2024-01-10",
+          "status": "Pending",
+          "totalPrice": "220.00"
+        },
+        {
+          "orderId": "O030",
+          "customerId": "C030",
+          "orderDate": "2024-02-01",
+          "status": "Completed",
+          "totalPrice": "250.00"
+        }
+      ]
+      
